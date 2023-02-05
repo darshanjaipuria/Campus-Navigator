@@ -46,9 +46,7 @@
             font-size: 1.3rem;
             height: 50%;
             width: auto;
-            /* border: 2.4px solid rgb(27, 119, 239); */
-            /* margin: 9rem;
-            border-radius: 1.5rem; */
+            
         }
 </style>
 
@@ -67,10 +65,6 @@ if (!$connection) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-
-// mysqli_close($connection);
-
-// echo "Hurray! Connection with Database was Successfull🎉";
 
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
             $building = $_POST['building'];
@@ -94,12 +88,10 @@ if (!$connection) {
         else{
             // echo "Database selected successfully !";
         }
-        // echo "$floor";
+        
         echo "<div class='contain'>";
         echo "<h1>Here are the results...</h1><br>";
-        // echo $building;
-        // echo $time;
-        // echo gettype($floor);
+      
         $query = "SELECT * FROM `empty_details` WHERE `Building` = '$building'  AND `Floor` = '$floor' AND `Time`='$time' AND `Day` =  '$day' AND `Course`LIKE 'Empty Room'";
         $result = mysqli_query($connection,$query) or die("Query Failed : ".mysqli_error());
 
