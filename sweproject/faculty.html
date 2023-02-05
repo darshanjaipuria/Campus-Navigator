@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find The Faculty</title>
+
+  <link rel="stylesheet" href="facultyStyle.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    #footer2 {
+
+      background-color: rgb(27, 119, 239);
+      height: 2rem;
+      bottom: 0;
+      width: 2000px;
+      position: absolute;
+      bottom: 0;
+    }
+
+    #footer2 p {
+      color: white;
+      text-align: center;
+      padding-top: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="	https://vtop.vit.ac.in/vtop/assets/img/VITLogoEmblem.png" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top" />
+        <span><span class="VIT">VIT </span>
+          <span class="VelloreCampus">(Vellore Campus)</span></span>
+      </a>
+    </div>
+  </nav>
+  <h2>Please Fill up the details.</h2>
+  <div class="contain">
+    <form action="faculty.php" method="post">
+      <div class="faculty_room">
+        <div class="faculty">
+          <label for="FacultySearch">Search for a faculty</label>
+          <input type="text" id="FacultySeacrh" name="FacultySearch" placeholder="Search by name or Employee ID" />
+        </div>
+      </div>
+      <div class="time">
+        <label for="appt">Select a time:</label>
+        <!-- <input type="time" id="appt" name="appt"> -->
+        <input type="time" id="time1" value="09:00" min="08:00" max="17:00" name="time" />
+        <br />
+        <br />
+      </div>
+
+      <div class="days">
+        <label for="days">Choose a Day:</label>
+        <select name="days" id="days">
+          <optgroup label="Working Days">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+          </optgroup>
+        </select>
+        <br /><br />
+      </div>
+
+      <button class="btn">
+        <input class="btnn" type="submit" value="Search" />
+      </button>
+  </div>
+  </form>
+  <footer id="footer2">
+
+    <p>Copyright © 2022 Software Development Cell, VIT, Vellore-632 014.</p>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
