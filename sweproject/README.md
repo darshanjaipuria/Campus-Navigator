@@ -20,7 +20,7 @@ expertise and staying current with the latest
 advancements in technology.
 
 
-# Password Generator
+# Campus Navigator
 
 ## Author
 
@@ -45,9 +45,10 @@ A web application to streamline the process of finding empty rooms and faculty m
 
 ## Tech Stack
 
-Css,
+CSS,
 HTML,
-PHP
+PHP,
+MySQL
 
 
 
@@ -58,15 +59,4 @@ PHP
 
 
 ## 🛠 Skills
-Java, Javascript, HTML, CSS, ReactJS, MySql, ExpressJS, MonoDB
-
-# Deployed Link
-
-![App Screenshot](https://github.com/prathamgupt/Campus_Navigator/blob/main/Screenshot/Screenshot%202023-03-24%20233836.png?raw=true)
-
-https://campusnavigator.000webhostapp.com/sweproject/index.html
-
-# Authors
-
-[@darshanjain](https://github.com/darshanjaipuria)
-[@prathamgupta](https://github.com/prathamgupt)
+Java, Javascript, HTML, CSS, ReactJS, MySql, ExpressJS, MongoDB, PHP
