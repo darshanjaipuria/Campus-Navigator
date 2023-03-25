@@ -1,3 +1,65 @@
+# Hi, I'm Darshan Jain! 👋
+
+## 🚀 About Me
+A highly motivated
+and
+detail-oriented
+computer science under-graduate in BTech,
+possessing a keen interest in technology and
+software development. Proficient in utilizing
+programming languages such as Java, React, and
+familiar with JavaScript,
+MySQL,
+and C++ .
+
+Demonstrated ability to adapt quickly to new
+environments and collaborate efficiently with
+teams . Committed
+to continuously expanding
+expertise and staying current with the latest
+advancements in technology.
+
+
+# Password Generator
+
+## Author
+
+- [@darshanjain](https://github.com/darshanjaipuria)
+- [@prathamgupta](https://github.com/prathamgupt)
+
+
+## Screenshots
+
+![Campus Navigator](https://github.com/prathamgupt/Campus_Navigator/blob/main/Screenshot/Screenshot%202023-03-24%20233836.png?raw=true)
+
+## Demo
+
+For demo click on the below link
+
+https://campusnavigator.000webhostapp.com/sweproject/index.html
+
+## Appendix
+
+
+A web application to streamline the process of finding empty rooms and faculty members for college students. With the help of this software student can find an empty room between two classes instead of wasting time to look foe an empty room by checking all the rooms and with help of faculty finder student can find any faculty can can get their doubt which will again save the time.
+
+## Tech Stack
+
+Css,
+HTML,
+PHP
+
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://darshanjain.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/darshannn-jain/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/DarshanJaipuria)
+
+
+## 🛠 Skills
+Java, Javascript, HTML, CSS, ReactJS, MySql, ExpressJS, MonoDB
+
 # Deployed Link
 
 ![App Screenshot](https://github.com/prathamgupt/Campus_Navigator/blob/main/Screenshot/Screenshot%202023-03-24%20233836.png?raw=true)
@@ -8,118 +70,3 @@ https://campusnavigator.000webhostapp.com/sweproject/index.html
 
 [@darshanjain](https://github.com/darshanjaipuria)
 [@prathamgupta](https://github.com/prathamgupt)
-
-# The PHP Interpreter
-
-PHP is a popular general-purpose scripting language that is especially suited to
-web development. Fast, flexible and pragmatic, PHP powers everything from your
-blog to the most popular websites in the world. PHP is distributed under the
-[PHP License v3.01](LICENSE).
-
-[![Push](https://github.com/php/php-src/actions/workflows/push.yml/badge.svg)](https://github.com/php/php-src/actions/workflows/push.yml)
-[![Build status](https://travis-ci.com/php/php-src.svg?branch=master)](https://travis-ci.com/github/php/php-src)
-[![Build status](https://ci.appveyor.com/api/projects/status/meyur6fviaxgdwdy/branch/master?svg=true)](https://ci.appveyor.com/project/php/php-src)
-[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/php.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:php)
-
-## Documentation
-
-The PHP manual is available at [php.net/docs](https://php.net/docs).
-
-## Installation
-
-### Prebuilt packages and binaries
-
-Prebuilt packages and binaries can be used to get up and running fast with PHP.
-
-For Windows, the PHP binaries can be obtained from
-[windows.php.net](https://windows.php.net). After extracting the archive the
-`*.exe` files are ready to use.
-
-For other systems, see the [installation chapter](https://php.net/install).
-
-### Building PHP source code
-
-*For Windows, see [Build your own PHP on Windows](https://wiki.php.net/internals/windows/stepbystepbuild_sdk_2).*
-
-For a minimal PHP build from Git, you will need autoconf, bison, and re2c. For
-a default build, you will additionally need libxml2 and libsqlite3.
-
-On Ubuntu, you can install these using:
-
-    sudo apt install -y pkg-config build-essential autoconf bison re2c \
-                        libxml2-dev libsqlite3-dev
-
-On Fedora, you can install these using:
-
-    sudo dnf install re2c bison autoconf make libtool ccache libxml2-devel sqlite-devel
-
-Generate configure:
-
-    ./buildconf
-
-Configure your build. `--enable-debug` is recommended for development, see
-`./configure --help` for a full list of options.
-
-    # For development
-    ./configure --enable-debug
-    # For production
-    ./configure
-
-Build PHP. To speed up the build, specify the maximum number of jobs using `-j`:
-
-    make -j4
-
-The number of jobs should usually match the number of available cores, which
-can be determined using `nproc`.
-
-## Testing PHP source code
-
-PHP ships with an extensive test suite, the command `make test` is used after
-successful compilation of the sources to run this test suite.
-
-It is possible to run tests using multiple cores by setting `-jN` in
-`TEST_PHP_ARGS`:
-
-    make TEST_PHP_ARGS=-j4 test
-
-Shall run `make test` with a maximum of 4 concurrent jobs: Generally the maximum
-number of jobs should not exceed the number of cores available.
-
-The [qa.php.net](https://qa.php.net) site provides more detailed info about
-testing and quality assurance.
-
-## Installing PHP built from source
-
-After a successful build (and test), PHP may be installed with:
-
-    make install
-
-Depending on your permissions and prefix, `make install` may need super user
-permissions.
-
-## PHP extensions
-
-Extensions provide additional functionality on top of PHP. PHP consists of many
-essential bundled extensions. Additional extensions can be found in the PHP
-Extension Community Library - [PECL](https://pecl.php.net).
-
-## Contributing
-
-The PHP source code is located in the Git repository at
-[github.com/php/php-src](https://github.com/php/php-src). Contributions are most
-welcome by forking the repository and sending a pull request.
-
-Discussions are done on GitHub, but depending on the topic can also be relayed
-to the official PHP developer mailing list internals@lists.php.net.
-
-
-
-- [Contributing to PHP](/CONTRIBUTING.md)
-- [PHP coding standards](/CODING_STANDARDS.md)
-- [Mailing list rules](/docs/mailinglist-rules.md)
-- [PHP release process](/docs/release-process.md)
-
-## Credits
-
-For the list of people who've put work into PHP, please see the
-[PHP credits page](https://php.net/credits.php).
