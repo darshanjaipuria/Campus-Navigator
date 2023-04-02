@@ -1,6 +1,6 @@
 # Campus Navigator
 
-A web application to streamline the process of finding empty rooms and faculty members for college students. With the help of this software student can find an empty room between two classes instead of wasting time to look for an empty room by checking all the rooms and with help of faculty finder student can find any faculty can can get their doubt which will again save the time.
+A web application to streamline the process of finding empty rooms and faculty members for college students. With the help of this software student can find an empty room between two classes instead of wasting time to look for an empty room by checking all the rooms and with help of faculty finder student can find any faculty can get their doubt which will again save the time.
 
 ## Demo
 
