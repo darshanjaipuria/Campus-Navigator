@@ -2,11 +2,6 @@
 
 A web application to streamline the process of finding empty rooms and faculty members for college students. With the help of this software student can find an empty room between two classes instead of wasting time to look for an empty room by checking all the rooms and with help of faculty finder student can find any faculty and can get their doubt which will again save the time.
 
-## Demo
-
-For demo click on the below link
-
-https://campusnavigator.000webhostapp.com/sweproject/index.html
 
 ## Screenshots
 
